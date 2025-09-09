@@ -1,0 +1,87 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+
+//-------------------------------------------------------------------------------------
+// This part sets the default design of v-table
+.v-table__wrapper thead{
+    // background-color: #84ceac;
+    background-color: #00674f
+}
+.v-table__wrapper th{
+    color:white !important;
+}
+.v-table__wrapper th,
+.v-table__wrapper td{
+    font-size:14px !important;
+}
+.overwrite__v-table .v-table__wrapper{          // this selector is made specially for table used in presensi
+    overflow: visible;                      
+}
+//-------------------------------------------------------------------------------------
+// This part overwrites the design of v-date-picker
+.v-sheet .v-date-picker{
+    width:300px !important;
+}
+.v-date-picker .v-picker-title{
+    display:none;
+}
+.v-date-picker .v-picker__header{
+    display:none;
+}
+//-------------------------------------------------------------------------------------
+
+.color-primary{
+    // color: #84ceac !important;
+    color: #00674f;
+}
+.color-secondary{
+    color: #33bcea !important;
+}
+.color-slate{
+    color:darkslategray !important;
+}
+.color-white{
+    color:white !important;
+}
+.font-10{
+    font-size:10px;
+}
+.font-12{
+    font-size:12px;
+}
+.font-14{
+    font-size:14px;
+}
+.font-16{
+    font-size:16px;
+}
+.font-18{
+    font-size:16px;
+}
+.font-24{
+    font-size:24px;
+}
+.font-28{
+    font-size:28px;
+}
+.font-32{
+    font-size:32px;
+}
+.font-34{
+    font-size:34px;
+}
+.font-36{
+    font-size:36px;
+}
+.align-top {
+    vertical-align: top;
+}
