@@ -1,0 +1,37 @@
+export const days_list = [
+    {
+        ID:1,
+        Name:'SENIN',
+        DayOfTheWeek:1,
+    },
+    {
+        ID:2,
+        Name:'SELASA',
+        DayOfTheWeek:2,
+    },
+    {
+        ID:3,
+        Name:'RABU',
+        DayOfTheWeek:3,
+    },
+    {
+        ID:4,
+        Name:'KAMIS',
+        DayOfTheWeek:4,
+    },
+    {
+        ID:5,
+        Name:'JUMAT',
+        DayOfTheWeek:5,
+    },
+    {
+        ID:6,
+        Name:'SABTU',
+        DayOfTheWeek:6,
+    },
+    {
+        ID:7,
+        Name:'AHAD',
+        DayOfTheWeek:0,
+    },
+]

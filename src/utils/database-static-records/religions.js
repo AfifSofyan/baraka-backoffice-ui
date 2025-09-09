@@ -1,0 +1,22 @@
+export const religion_list = [
+    {
+        ID:1,
+        Name:'ISLAM'
+    },
+    {
+        ID:2,
+        Name:'KRISTEN'
+    },
+    {
+        ID:3,
+        Name:'KATOLIK'
+    },
+    {
+        ID:4,
+        Name:'HINDU'
+    },
+    {
+        ID:5,
+        Name:'BUDHA'
+    }
+]

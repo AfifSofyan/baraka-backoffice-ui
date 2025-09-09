@@ -1,0 +1,22 @@
+export const degree_list = [
+    {
+        ID:1,
+        Name:'D3'
+    },
+    {
+        ID:2,
+        Name:'D4'
+    },
+    {
+        ID:3,
+        Name:'S1'
+    },
+    {
+        ID:4,
+        Name:'S2'
+    },
+    {
+        ID:5,
+        Name:'S3'
+    }
+]
